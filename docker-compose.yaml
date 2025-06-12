@@ -1,15 +1,15 @@
-version: '3'
+version: '3.8'
 
 services:
   frontend:
-    build: ./frontend
+    image: phani5566/fullstack-frontend:latest
     ports:
       - "5173:5173"
     depends_on:
       - backend
 
   backend:
-    build: ./backend
+    image: phani5566/fullstack-backend:latest
     ports:
       - "8978:8978"
     depends_on:
