@@ -1,0 +1,388 @@
+body {
+    background-color: black;
+
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 9% 51% 40%;
+    height: 100vh;
+    border: none;
+}
+
+.header {
+    grid-column: 1/4;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+}
+
+.im {
+    grid-column: 1/2;
+    height: 70px;
+    width: 70px;
+    margin-left: 30px;
+    margin-top: 1px;
+}
+
+.na {
+    font-family: 'Brush Script MT', cursive;
+    grid-column: 2/3;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.log {
+    height: 20px;
+    width: 60px;
+    grid-column: 3/4;
+    margin-left: auto;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.sin {
+    height: 20px;
+    width: 60px;
+    grid-column: 4/5;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+.log:hover {
+    background-color: rgb(234, 234, 234);
+}
+
+.sin:hover {
+    background-color: rgb(234, 234, 234);
+}
+
+.menu {
+    grid-column: 1/2;
+    grid-row: 2/4;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bot {
+    margin-right: auto;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.bot:hover {
+    background-color: rgb(234, 234, 234);
+
+}
+
+.content {
+    grid-column: 2/3;
+    grid-row: 2/4;
+    background-color: rgb(0, 0, 0);
+}
+
+.sider {
+    grid-column: 3/4;
+    grid-row: 2/4;
+    background-color: rgb(0, 0, 0);
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imgg {
+    height: 250px;
+    width: 250px;
+    border-radius: 6px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.para {
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 200px;
+    margin-right: 80px;
+    color: aliceblue;
+}
+.losi{
+    margin-left: auto;
+}
+.sigg{
+    height: auto;
+    background-color: rgb(21, 21, 21);
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: auto;
+}
+.sa{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bb{
+    height: 25px;
+    width: 65px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    cursor: pointer;
+}
+.bb:hover{
+    background-color: rgb(234, 234, 234);
+
+}
+.ro{
+    background-color: rgb(0, 0, 0);
+}
+.ko{
+    color: aliceblue;
+}
+.ne{
+    margin-left: auto;
+    height: 60px;
+    width:60px;
+    border-radius: 100%;
+    margin-top: 0;
+    margin-left: auto;
+    display: flex;
+    /* margin-bottom:; */
+}
+.naa {
+    color: aliceblue;
+    text-align: right;  /* Align text to the right */
+    margin-right: 20px;
+    margin-top: -2%; /* Add some space from the right edge */
+}
+
+.for{
+    /* align-items: center; */
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(38, 38, 38);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 20%;
+    color: aliceblue;
+    font-size: 20px;
+}
+.mai{
+    margin-top: 10px;
+
+}
+.pas{
+    margin-top: 20px;
+}
+.bu{
+    margin-top: 20px;
+    width: 50px;
+    justify-self: center;
+    margin-left: 120px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.bu:hover{
+    background-color: rgb(234, 234, 234);
+}
+.biu{
+    margin-top: 20px;
+    width: 70px;
+    justify-self: center;
+    margin-left: 120px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.biu:hover{
+    background-color: rgb(234, 234, 234);
+}
+.sira{
+    display: flex;
+}
+.so{
+    font-family: 'Brush Script MT', cursive;
+    grid-column: 2/3;
+    color: aliceblue;
+    font-size: 30px;
+    /* margin-top: ; */
+}
+.bye{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 10%;
+}
+.di{
+    grid-column: 1/2;
+    height: 70px;
+    width: 70px;
+    margin-left: 30px;
+    margin-top: 1px;
+}
+.bye{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.bo{
+    margin-right: auto;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+}
+.hay{
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.ham{
+    display: flex;
+    flex-direction: row;
+}
+.koi{
+    margin-right: auto;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: -1000px;
+}
+.fir{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+/* General Page Layout */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #242526;
+    color: white;
+}
+
+/* Logo & Title (Top Left) */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+/* User Info (Top Right) */
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Main Content */
+.main-content {
+    display: flex;
+    flex: 1;
+    margin-top: 20px;
+}
+
+/* Left Sidebar */
+.left-sidebar {
+    flex: 0.2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+    gap: 15px;
+    
+}
+
+/* Feed Section (Centered) */
+.feed-section {
+    flex: 0.8;
+    display: flex;
+    justify-content: center;
+}
+.pani{
+    height: 30px;
+    width: 100px;
+    margin-left: -100px;
+    font-weight: bold;
+
+}
+.suni{
+    margin-right:auto ;
+    margin-left: -30px;
+    margin-bottom: auto;
+    height: 50px;
+    width: 100px;
+    font-weight: bold;
+}
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.upload-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
